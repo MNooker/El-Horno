@@ -1,0 +1,11 @@
+data/
+__pycache__/
+
+.env
+.env.*
+!.env.example
+*.sqlite3*
+.trigger-tree/
+.superdesign/
+outputs/
+public-demo/

@@ -1,0 +1,4 @@
+# Compatibilidad: inicia el servidor de aplicación con SQLite.
+import runpy
+from pathlib import Path
+runpy.run_path(str(Path(__file__).with_name('server.py')), run_name='__main__')

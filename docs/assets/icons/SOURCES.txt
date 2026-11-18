@@ -1,0 +1,2 @@
+Solar icons via Iconify @iconify-json/solar 1.2.15
+https://registry.npmjs.org/@iconify-json/solar/-/solar-1.2.15.tgz

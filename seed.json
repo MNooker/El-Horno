@@ -1,0 +1,310 @@
+{
+  "seq": 1003,
+  "site": {
+    "hero": "La vida sabe mejor con pan.",
+    "sub": "Hecho cada mañana. Recoge en tienda o pide a domicilio.",
+    "promo": "Envío gratis en pedidos mayores a $250",
+    "addr": "Av. Ejemplo 123, Col. Centro (dato de prueba)",
+    "phone": "555 000 0000",
+    "wa": "5550000000",
+    "ig": "@elhorno.demo",
+    "open": 7,
+    "close": 20,
+    "fee": 25,
+    "freeFrom": 250,
+    "driverPay": 30
+  },
+  "products": [
+    {
+      "id": "p0",
+      "n": "Croissant de mantequilla",
+      "c": "Bollería",
+      "p": 38,
+      "s": 48,
+      "e": "🥐",
+      "d": "Capas doradas y centro suave.",
+      "i": "Harina, mantequilla, leche, huevo, sal",
+      "a": "Gluten, lácteos, huevo",
+      "w": "90 g",
+      "l": 0
+    },
+    {
+      "id": "p1",
+      "n": "Chocolatín",
+      "c": "Bollería",
+      "p": 42,
+      "s": 28,
+      "e": "🍫",
+      "d": "Masa laminada con chocolate.",
+      "i": "Harina, mantequilla, chocolate, azúcar",
+      "a": "Gluten, lácteos, soya",
+      "w": "100 g",
+      "l": 0
+    },
+    {
+      "id": "p2",
+      "n": "Rol de canela",
+      "c": "Bollería",
+      "p": 45,
+      "s": 32,
+      "e": "🌀",
+      "d": "Espiral suave con canela y glaseado.",
+      "i": "Harina, canela, azúcar, mantequilla",
+      "a": "Gluten, lácteos, huevo",
+      "w": "120 g",
+      "l": 0
+    },
+    {
+      "id": "p3",
+      "n": "Empanada de manzana",
+      "c": "Bollería",
+      "p": 36,
+      "s": 20,
+      "e": "🥧",
+      "d": "Relleno casero de manzana.",
+      "i": "Harina, manzana, azúcar, mantequilla",
+      "a": "Gluten, lácteos",
+      "w": "110 g",
+      "l": 0
+    },
+    {
+      "id": "p4",
+      "n": "Concha de vainilla",
+      "c": "Pan dulce",
+      "p": 18,
+      "s": 80,
+      "e": "🍪",
+      "d": "Pan suave con cubierta de vainilla.",
+      "i": "Harina, azúcar, manteca, huevo",
+      "a": "Gluten, huevo, lácteos",
+      "w": "85 g",
+      "l": 0
+    },
+    {
+      "id": "p5",
+      "n": "Concha de chocolate",
+      "c": "Pan dulce",
+      "p": 18,
+      "s": 60,
+      "e": "🍪",
+      "d": "Cubierta de chocolate que se rompe al morder.",
+      "i": "Harina, azúcar, cacao, huevo",
+      "a": "Gluten, huevo",
+      "w": "85 g",
+      "l": 0
+    },
+    {
+      "id": "p6",
+      "n": "Baguette rústica",
+      "c": "Pan de mesa",
+      "p": 35,
+      "s": 20,
+      "e": "🥖",
+      "d": "Corteza crujiente, miga ligera.",
+      "i": "Harina, agua, sal, levadura",
+      "a": "Gluten",
+      "w": "250 g",
+      "l": 0
+    },
+    {
+      "id": "p7",
+      "n": "Pan de masa madre",
+      "c": "Pan de mesa",
+      "p": 85,
+      "s": 16,
+      "e": "🍞",
+      "d": "Fermentación lenta de 24 h.",
+      "i": "Harina, agua, sal, masa madre",
+      "a": "Gluten",
+      "w": "600 g",
+      "l": 0
+    },
+    {
+      "id": "p8",
+      "n": "Pastel tres leches (12 porc.)",
+      "c": "Pasteles",
+      "p": 420,
+      "s": 6,
+      "e": "🎂",
+      "d": "Esponjoso, para fiestas y reuniones.",
+      "i": "Harina, leche, crema, huevo, azúcar",
+      "a": "Gluten, lácteos, huevo",
+      "w": "1.2 kg",
+      "l": 24
+    },
+    {
+      "id": "p9",
+      "n": "Pastel de chocolate (12 porc.)",
+      "c": "Pasteles",
+      "p": 480,
+      "s": 4,
+      "e": "🍰",
+      "d": "Capas de chocolate con betún.",
+      "i": "Harina, cacao, huevo, mantequilla",
+      "a": "Gluten, lácteos, huevo, soya",
+      "w": "1.3 kg",
+      "l": 48
+    },
+    {
+      "id": "p10",
+      "n": "Rebanada de cheesecake",
+      "c": "Pasteles",
+      "p": 52,
+      "s": 12,
+      "e": "🍰",
+      "d": "Base de galleta y crema suave.",
+      "i": "Queso crema, galleta, huevo, azúcar",
+      "a": "Gluten, lácteos, huevo",
+      "w": "130 g",
+      "l": 0
+    },
+    {
+      "id": "p11",
+      "n": "Café americano",
+      "c": "Bebidas",
+      "p": 35,
+      "s": 99,
+      "e": "☕",
+      "d": "Grano de tueste medio.",
+      "i": "Café, agua",
+      "a": "Ninguno",
+      "w": "12 oz",
+      "l": 0
+    },
+    {
+      "id": "p12",
+      "n": "Chocolate caliente",
+      "c": "Bebidas",
+      "p": 45,
+      "s": 99,
+      "e": "🍵",
+      "d": "Con leche y cacao.",
+      "i": "Leche, cacao, azúcar",
+      "a": "Lácteos",
+      "w": "12 oz",
+      "l": 0
+    },
+    {
+      "id": "p13",
+      "n": "Capuchino",
+      "c": "Bebidas",
+      "p": 48,
+      "s": 99,
+      "e": "☕",
+      "d": "Espresso con espuma de leche.",
+      "i": "Café, leche",
+      "a": "Lácteos",
+      "w": "12 oz",
+      "l": 0
+    },
+    {
+      "id": "p14",
+      "n": "Desayuno para 2",
+      "c": "Paquetes",
+      "p": 160,
+      "s": 15,
+      "e": "🧺",
+      "d": "2 croissants + 2 cafés + 2 conchas.",
+      "i": "Ver productos incluidos",
+      "a": "Gluten, lácteos, huevo",
+      "w": "—",
+      "l": 0
+    },
+    {
+      "id": "p15",
+      "n": "Combo mesa",
+      "c": "Paquetes",
+      "p": 120,
+      "s": 15,
+      "e": "🧺",
+      "d": "Baguette + 4 conchas + mantequilla.",
+      "i": "Ver productos incluidos",
+      "a": "Gluten, lácteos, huevo",
+      "w": "—",
+      "l": 0
+    }
+  ],
+  "orders": [
+    {
+      "id": "EH-1001",
+      "type": "delivery",
+      "status": "ready",
+      "name": "Ana (ejemplo)",
+      "phone": "555 010 0000",
+      "addr": "Calle Ejemplo 45, Col. Centro (prueba)",
+      "slot": "Hoy 17:00",
+      "pay": "cash",
+      "note": "",
+      "items": [
+        {
+          "id": "p0",
+          "n": "Croissant de mantequilla",
+          "p": 38,
+          "q": 2
+        },
+        {
+          "id": "p4",
+          "n": "Concha de vainilla",
+          "p": 18,
+          "q": 1
+        }
+      ],
+      "sub": 94,
+      "fee": 25,
+      "total": 119,
+      "at": 1794576452355
+    },
+    {
+      "id": "EH-1002",
+      "type": "pickup",
+      "status": "new",
+      "name": "Diego (ejemplo)",
+      "phone": "555 010 0000",
+      "addr": "",
+      "slot": "Hoy 17:00",
+      "pay": "cash",
+      "note": "",
+      "items": [
+        {
+          "id": "p4",
+          "n": "Concha de vainilla",
+          "p": 18,
+          "q": 6
+        }
+      ],
+      "sub": 108,
+      "fee": 0,
+      "total": 108,
+      "at": 1794576452355
+    },
+    {
+      "id": "EH-1003",
+      "type": "delivery",
+      "status": "prep",
+      "name": "Lucía (ejemplo)",
+      "phone": "555 010 0000",
+      "addr": "Calle Ejemplo 45, Col. Centro (prueba)",
+      "slot": "Hoy 17:00",
+      "pay": "cash",
+      "note": "",
+      "items": [
+        {
+          "id": "p13",
+          "n": "Capuchino",
+          "p": 48,
+          "q": 1
+        },
+        {
+          "id": "p1",
+          "n": "Chocolatín",
+          "p": 42,
+          "q": 2
+        }
+      ],
+      "sub": 132,
+      "fee": 25,
+      "total": 157,
+      "at": 1794576452355
+    }
+  ]
+}
