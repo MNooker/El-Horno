@@ -1,5 +1,12 @@
 # El Horno
 
+[Ver demo pública](https://mnooker.github.io/El-Horno/) · [Repositorio](https://github.com/MNooker/El-Horno)
+
+La demo de Pages permite explorar los cuatro módulos con datos de ejemplo. No guarda
+pedidos ni cobros. Para actualizarla: `python scripts/build_pages.py`, revisar `docs/`
+y subir los cambios a `main`. Pages publica `main /docs`. El servidor Python se ejecuta
+por separado para operaciones reales.
+
 Web de pedidos, punto de venta, administración y reparto con servidor Python y base SQLite en esta PC. No necesita instalar paquetes de Python ni servicios de base de datos adicionales.
 
 Actualización del 17 de noviembre: reglas y seis skills de desarrollo, dinero decimal,

@@ -2,7 +2,7 @@
 from pathlib import Path
 import json, shutil
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'public-demo'
+OUT=ROOT/'docs'
 OUT.mkdir(exist_ok=True)
 for name in ['index.html','pos.html','admin.html','repartidor.html','app.css','premium.css','motion.js']:
  shutil.copy2(ROOT/name,OUT/name)
