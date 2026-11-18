@@ -1,0 +1,18 @@
+.work-heading h1{font:600 2rem/1.15 var(--ff);letter-spacing:-.04em;margin:0}
+.inventory-open #metrics{display:none}
+.inv-workspace{background:#fffdf8;border:1px solid #d9ccbc;border-radius:16px;overflow:hidden;min-width:0}
+.inv-heading,.inv-tools,.inv-body,.inv-workspace nav{padding-inline:clamp(14px,3vw,36px)}
+.inv-heading{padding-block:24px 18px;background:#efe8dc}
+.inv-heading h2{font:600 2.2rem/1.12 var(--fs);margin:0}
+.inv-heading p,.inv-tools p,.inv-scale p{color:#675b50;font-size:.85rem;margin:6px 0}
+.inv-workspace nav{display:flex;flex-wrap:wrap;border-bottom:1px solid #d9ccbc}
+.inv-workspace nav button{background:transparent;border:0;border-bottom:3px solid transparent;padding:12px 15px;min-height:46px;color:#605247;font-weight:600}
+.inv-workspace nav button[aria-pressed=true]{border-bottom-color:#99472d;color:#813a24}
+.inv-tools{display:flex;gap:14px;align-items:end;flex-wrap:wrap;padding-block:20px}
+.inv-tools label,.inv-scale label{display:grid;gap:6px;color:#514237;font-size:.8rem;font-weight:600}
+.inv-tools input,.inv-tools select,.inv-scale input{min-width:0;width:100%;font-size:1rem}
+.inv-body{padding-bottom:22px;min-width:0}
+.inv-scroll{overflow-x:auto}.inv-body table{font-variant-numeric:tabular-nums;width:100%}.inv-scroll small{display:block}.inv-scroll th,.inv-scroll td{padding:12px 10px;text-align:left}.inv-scroll td:last-child{font-weight:650}
+.inv-add{margin-top:18px}.inv-add summary{cursor:pointer;padding:12px 0;font-weight:650}.inv-scale{display:grid;grid-template-columns:1fr 1fr;gap:24px;border-top:1px solid #dccfbe;padding-top:20px}.inv-scale>div:last-child{display:grid;gap:12px}.inv-scale output{font-size:1.15rem;font-weight:650;color:#723920}
+.inv-workspace :focus-visible{outline:3px solid #974327;outline-offset:2px}
+@media(max-width:700px){.inv-scale{grid-template-columns:1fr}.inv-tools{align-items:stretch}.inv-tools label{flex:1 1 140px}.inv-workspace nav button{padding-inline:7px}.inv-body .tw table{min-width:0}.inv-body .tw thead{display:none}.inv-body .tw tbody,.inv-body .tw tr{display:block}.inv-body .tw tr{padding:10px;border-bottom:1px solid #d9ccbc}.inv-body .tw td{display:block;border:0;padding:4px 0;white-space:normal}.inv-body .tw td:nth-child(3)::before{content:'Precio (MXN) ';font-size:.8rem}.inv-body .tw td:last-child::before{content:'Existencias';display:block;font-size:.8rem}.inv-body .qty{display:flex;flex-wrap:wrap}.inv-workspace nav{padding-inline:7px}.inv-body .inventory-product{min-width:0}}
